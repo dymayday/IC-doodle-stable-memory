@@ -4,19 +4,6 @@
       "candid": "src/doodle_ic_api/doodle_ic_api.did",
       "package": "doodle_ic_api",
       "type": "rust"
-    },
-    "doodle_ic_api_assets": {
-      "dependencies": [
-        "doodle_ic_api"
-      ],
-      "frontend": {
-        "entrypoint": "src/doodle_ic_api_assets/src/index.html"
-      },
-      "source": [
-        "src/doodle_ic_api_assets/assets",
-        "dist/doodle_ic_api_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
@@ -25,7 +12,6 @@
       "packtool": ""
     }
   },
-  "dfx": "0.8.4",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",

@@ -10,5 +10,7 @@ path = "lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-ic-cdk = "0.3"
-ic-cdk-macros = "0.3"
+candid = "0.7.14"
+ic-cdk = "0.5.0"
+ic-cdk-macros = "0.5.0"
+serde = { version = "1.0.136", features = ["derive"] }
